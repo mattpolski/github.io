@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const apiRoot = 'https://dry-bayou-71203.herokuapp.com/v1/task/';
-  const trelloApiRoot = 'https://trello.com/mateuszpolski/boards';
+  const trelloApiRoot = 'https://api.trello.com/1/members/mateuszpolski/boards';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
